@@ -26,7 +26,9 @@ RUN apt-get install -y \
     unzip
 
 # Install Go
+ADD docker_golang1.3.patch /tmp/
 ADD install-go.sh /tmp/
+#ADD go /tmp/go
 RUN /tmp/install-go.sh
 
 # Set the Go workspace
