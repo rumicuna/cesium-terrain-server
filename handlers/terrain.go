@@ -6,7 +6,7 @@ import (
 	"github.com/geo-data/cesium-terrain-server/assets"
 	"github.com/geo-data/cesium-terrain-server/log"
 	"github.com/geo-data/cesium-terrain-server/stores"
-	"gopkg.in/gorilla/mux.v1"
+	"gopkg.in/rumicuna/mux.v2"
 	"net/http"
 )
 
