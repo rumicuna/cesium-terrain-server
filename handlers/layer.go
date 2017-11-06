@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"github.com/geo-data/cesium-terrain-server/log"
 	"github.com/geo-data/cesium-terrain-server/stores"
-	"gopkg.in/gorilla/mux.v1.2.0"
+	"gopkg.in/rumicuna/mux.v2"
 	"net/http"
 )
 
