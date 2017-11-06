@@ -3,7 +3,7 @@ checkout:=$(shell cat $(CURDIR)/docker/cts-checkout.txt)
 GOFILES:=$(shell find . -name '*.go')
 
 install: $(GOFILES) assets/assets.go
-	go get ./... && go install ./...
+	go get gopkg.in/yaml.v1 && go get ./... && go install ./...
 
 assets/assets.go: .go-bindata data
 	go-bindata -ignore \\.gitignore -nocompress -pkg="assets" -o assets/assets.go data
