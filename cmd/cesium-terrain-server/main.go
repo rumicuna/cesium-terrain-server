@@ -8,7 +8,7 @@ import (
 	"github.com/geo-data/cesium-terrain-server/log"
 	"github.com/geo-data/cesium-terrain-server/stores/fs"
 	"github.com/gorilla/handlers"
-	"github.com/gorilla/mux"
+	"gopkg.in/rumicuna/mux.v2"
 	l "log"
 	"net/http"
 	"os"
